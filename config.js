@@ -1,13 +1,9 @@
 export const config = {
-  domainSource: "https://f69a71f6-9fd8-443b-a040-78beb5d404d4.weweb-preview.io", // Your WeWeb app preview link
+  domainSource: "https://5a01a34e-e669-4654-9a30-49e0ca703474-staging.weweb-preview.io/", // Your WeWeb app preview link
   patterns: [
       {
-          pattern: "/event/[^/]+",
-          metaDataEndpoint: "https://xeo6-2sgh-ehgj.n7.xano.io/api:8wD10mRd/event/{id}/meta"
-      },
-      {
-          pattern: "/team/profile/[^/]+",
-          metaDataEndpoint: "https://xeo6-2sgh-ehgj.n7.xano.io/api:LjwxezTv/team/profile/{profile_id}/meta"
+          pattern: "/blog/[^/]+/[^/]+",
+          metaDataEndpoint: "https://api.madeeasy.ai/api:3DvLmlut/blogs/{id}/metadata"
       }
       // Add more patterns and their metadata endpoints as needed
   ]
