@@ -1,5 +1,5 @@
 export const config = {
-  domainSource: "madeeasy.ai/", // Your WeWeb app preview link
+  domainSource: "madeeasy.ai", // Your WeWeb app preview link
   patterns: [
       {
           pattern: "/blog/[^/]+",
